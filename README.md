@@ -1,4 +1,4 @@
-                                  # Hi 👋 I'm Dev Shah
+<h1 align="center">Hi 👋 I'm Dev Shah</h1>
 
 ## 💫 About Me
 
