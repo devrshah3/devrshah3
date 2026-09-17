@@ -48,7 +48,7 @@ A supervised ML pipeline predicting match outcomes from 200,000+ historical reco
 **Stack:** Python, pandas, NumPy, scikit-learn
 **Result:** 18% improvement in predictive accuracy over baseline heuristics.
 
-### High-Performance Multi-Asset Risk Engine
+### [High-Performance Multi-Asset Risk Engine](https://github.com/devrshah3/risk-engine)
 A modular C++20 risk-computation engine designed for numerical analysis across 1,000+ entities. Implements multithreaded matrix operations and SIMD-vectorized kernels via Eigen to parallelize workload distribution. Independent modules handle correlation analysis, sensitivity calculations, and real-time aggregation, enabling concurrent execution across the risk pipeline.
 **Stack:** C++20, Eigen, Multithreading, SIMD
 **Result:** 35% throughput improvement through parallelized computation.
