@@ -43,15 +43,15 @@ A high-throughput, fault-tolerant ingestion service that sustains **38K records/
 **Stack:** FastAPI, PostgreSQL, Redis, Docker Compose, Python, pytest
 **Result:** p99 read latency under 4ms, cutting mean read latency 18% via the caching layer.
 
-### Soccer Game Outcome Prediction Engine
-A supervised ML pipeline predicting match outcomes from 200,000+ historical records. Engineered features capturing recent team form, goal statistics, home vs. away performance, and temporal patterns to strengthen predictive signal. Built with time-based train/test splits and cross-season evaluation workflows to avoid lookahead bias.
-**Stack:** Python, pandas, NumPy, scikit-learn
-**Result:** 18% improvement in predictive accuracy over baseline heuristics.
-
 ### [High-Performance Multi-Asset Risk Engine](https://github.com/devrshah3/risk-engine)
 A modular C++20 risk-computation engine designed for numerical analysis across 1,000+ entities. Implements multithreaded matrix operations and SIMD-vectorized kernels via Eigen to parallelize workload distribution. Independent modules handle correlation analysis, sensitivity calculations, and real-time aggregation, enabling concurrent execution across the risk pipeline.
 **Stack:** C++20, Eigen, Multithreading, SIMD
 **Result:** 35% throughput improvement through parallelized computation.
+
+### Soccer Game Outcome Prediction Engine
+A supervised ML pipeline predicting match outcomes from 200,000+ historical records. Engineered features capturing recent team form, goal statistics, home vs. away performance, and temporal patterns to strengthen predictive signal. Built with time-based train/test splits and cross-season evaluation workflows to avoid lookahead bias.
+**Stack:** Python, pandas, NumPy, scikit-learn
+**Result:** 18% improvement in predictive accuracy over baseline heuristics.
 
 ## 🧰 Tech Stack
 
