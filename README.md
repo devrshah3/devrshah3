@@ -48,10 +48,10 @@ A modular C++20 risk-computation engine designed for numerical analysis across 1
 **Stack:** C++20, Eigen, Multithreading, SIMD
 **Result:** 35% throughput improvement through parallelized computation.
 
-### Soccer Game Outcome Prediction Engine
-A supervised ML pipeline predicting match outcomes from 200,000+ historical records. Engineered features capturing recent team form, goal statistics, home vs. away performance, and temporal patterns to strengthen predictive signal. Built with time-based train/test splits and cross-season evaluation workflows to avoid lookahead bias.
-**Stack:** Python, pandas, NumPy, scikit-learn
-**Result:** 18% improvement in predictive accuracy over baseline heuristics.
+### [Global Soccer Prediction Engine](https://github.com/devrshah3/soccer-prediction-engine)
+Built a production-grade soccer intelligence platform using 3,961 real matches and 5,102 player-match records across 80 competition-season datasets. Engineered leakage-safe team form, Elo, expected-goals, lineup, goalscorer, scoreline, goal-timing, live match-state, and award-ranking features using strictly chronological evaluation. Added concurrent daily batch inference, four evidence-based prediction tiers, historical event replay, FastAPI endpoints, and an interactive Streamlit dashboard.
+**Stack:** Python, pandas, NumPy, scikit-learn, FastAPI, Streamlit, DuckDB, PyArrow, Pydantic, Plotly  
+**Result:** Achieved 74.24% outcome accuracy and 0.601 log loss across a preliminary 50-match chronological live-replay holdout, compared with 0.827 log loss for the static pre-match baseline; all 63 automated tests passed.
 
 ## 🧰 Tech Stack
 
