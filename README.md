@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Dev Shah</h1>
 
-## 💫 About Me
+## ⚡️ About Me
 
 I'm a B.S. student in **FinTech and Big Data Analytics** (Minor in CS) at Virginia Tech, graduating December 2027, interested in building **backend systems and data pipelines used in modern finance**.
 
